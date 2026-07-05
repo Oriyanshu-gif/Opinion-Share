@@ -1,0 +1,68 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Publish to GitHub",
+			"type": "shell",
+			"command": "& 'C:\\Program Files\\Git\\cmd\\git.exe' config user.name 'Oriyanshu-gif'; & 'C:\\Program Files\\Git\\cmd\\git.exe' config user.email 'oriyanshu@gmail.com'; & 'C:\\Program Files\\Git\\cmd\\git.exe' add .; & 'C:\\Program Files\\Git\\cmd\\git.exe' commit -m 'Initial export'; & 'C:\\Program Files\\Git\\cmd\\git.exe' push -u origin main",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Publish to GitHub",
+			"type": "shell",
+			"command": "git add . && git commit -m \"Initial export\" && git push -u origin main",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Publish to GitHub",
+			"type": "shell",
+			"command": "git add .; git commit -m \"Initial export\"; git push -u origin main",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Publish to GitHub",
+			"type": "shell",
+			"command": "git add .; git commit -m \"Initial export\"; git push -u origin main",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Publish to GitHub",
+			"type": "shell",
+			"command": "where.exe git",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Publish to GitHub",
+			"type": "shell",
+			"command": "\"C:\\Program Files\\Git\\cmd\\git.exe\" config user.name \"Oriyanshu-gif\"; \"C:\\Program Files\\Git\\cmd\\git.exe\" config user.email \"oriyanshu@gmail.com\"; \"C:\\Program Files\\Git\\cmd\\git.exe\" add .; \"C:\\Program Files\\Git\\cmd\\git.exe\" commit -m \"Initial export\"; \"C:\\Program Files\\Git\\cmd\\git.exe\" push -u origin main",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Publish to GitHub",
+			"type": "shell",
+			"command": "& 'C:\\Program Files\\Git\\cmd\\git.exe' config user.name 'Oriyanshu-gif'; & 'C:\\Program Files\\Git\\cmd\\git.exe' config user.email 'oriyanshu@gmail.com'; & 'C:\\Program Files\\Git\\cmd\\git.exe' add .; & 'C:\\Program Files\\Git\\cmd\\git.exe' commit -m 'Initial export'; & 'C:\\Program Files\\Git\\cmd\\git.exe' push -u origin main",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
